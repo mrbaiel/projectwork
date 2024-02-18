@@ -14,3 +14,9 @@ class Piggy:
 
     def show_balance(self):
         return self.balance
+
+    def delete_coins(self):
+        if self.balance > 0:
+            self.balance - -1
+        else:
+            self.balance == 0
